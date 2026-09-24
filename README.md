@@ -1,143 +1,153 @@
 <div align="center">
 
-# 🤖 AI Gmail Automation Agent
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:06B6D4&height=220&section=header&text=AI%20Gmail%20Automation%20Agent&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turn%20inbox%20noise%20into%20structured%20business%20intelligence&descAlignY=60&descSize=18" width="100%" alt="AI Gmail Automation Agent banner" />
 
 <p>
-  <strong>Transform unstructured Gmail messages into actionable business data with AI.</strong>
+  <a href="https://github.com/sawsanzaky/AI-Gmail-Automation-Agent/stargazers"><img src="https://img.shields.io/github/stars/sawsanzaky/AI-Gmail-Automation-Agent?style=for-the-badge&logo=github&color=f59e0b" alt="GitHub stars" /></a>
+  <a href="https://github.com/sawsanzaky/AI-Gmail-Automation-Agent/network/members"><img src="https://img.shields.io/github/forks/sawsanzaky/AI-Gmail-Automation-Agent?style=for-the-badge&logo=github&color=64748b" alt="GitHub forks" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" /></a>
+  <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" /></a>
 </p>
 
 <p>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" />
-  </a>
-  <a href="https://groq.com/">
-    <img src="https://img.shields.io/badge/AI-Groq-6C47FF?style=for-the-badge" alt="Groq AI" />
-  </a>
-  <a href="https://developers.google.com/gmail/api">
-    <img src="https://img.shields.io/badge/Gmail-API-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail API" />
-  </a>
-  <a href="https://streamlit.io/">
-    <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  </a>
-  <a href="https://drive.google.com/">
-    <img src="https://img.shields.io/badge/Google%20Drive-Cloud-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Google Drive" />
-  </a>
+  <a href="https://groq.com/"><img src="https://img.shields.io/badge/Powered%20by-Groq-6C47FF?style=flat-square" alt="Powered by Groq" /></a>
+  <a href="https://developers.google.com/gmail/api"><img src="https://img.shields.io/badge/Integration-Gmail%20API-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail API" /></a>
+  <a href="https://developers.google.com/sheets/api"><img src="https://img.shields.io/badge/Output-Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets" /></a>
 </p>
 
+<p><strong>Intelligent email processing and business workflow automation</strong></p>
+
 <p>
-  <a href="#-features">Features</a> •
-  <a href="#-workflow">Workflow</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-configuration">Configuration</a> •
-  <a href="#-usage">Usage</a>
+  <a href="#-why-this-project">Why this project</a> ·
+  <a href="#-capabilities">Capabilities</a> ·
+  <a href="#-architecture">Architecture</a> ·
+  <a href="#-quick-start">Quick start</a> ·
+  <a href="#-configuration">Configuration</a>
 </p>
 
 </div>
 
 ---
 
-## 📌 Overview
+## 🎯 Why this project?
 
-**AI Gmail Automation Agent** is an AI-powered email automation platform built with Python, Groq, the Gmail API, Excel, Google Drive, and Streamlit.
+Teams lose valuable time manually reading, classifying, summarizing, and routing email. **AI Gmail Automation Agent** creates a practical bridge between your Gmail inbox and your business operations.
 
-It retrieves Gmail messages, analyzes their content with generative AI, classifies and prioritizes them, creates concise summaries and suggested actions, and organizes the results into an Excel-based business workflow synchronized with Google Drive.
+It retrieves recent messages, asks an AI model to produce consistent business metadata, and writes the results to a structured Google Sheets workflow. A Streamlit interface provides a visual way to inspect the latest messages.
 
 <div align="center">
 
-### Gmail → AI Agent → Analyze → Structure → Excel → Google Drive → Dashboard
+| 📥 Capture | 🧠 Understand | 🗂️ Organize | 📊 Act |
+|:---:|:---:|:---:|:---:|
+| Gmail messages | AI summaries | Categories & priority | Sheets workflow |
 
 </div>
 
-## ✨ Features
+## ✨ Capabilities
 
 <table>
-  <tr>
-    <td>📧 <strong>Email Retrieval</strong></td>
-    <td>Connect to Gmail and process incoming messages.</td>
-  </tr>
-  <tr>
-    <td>🤖 <strong>AI Analysis</strong></td>
-    <td>Use Groq-powered generative AI to understand email content.</td>
-  </tr>
-  <tr>
-    <td>🏷️ <strong>Classification</strong></td>
-    <td>Classify messages by category, intent, and business type.</td>
-  </tr>
-  <tr>
-    <td>🚨 <strong>Priority Detection</strong></td>
-    <td>Identify urgent and high-value messages that need attention.</td>
-  </tr>
-  <tr>
-    <td>📝 <strong>Summarization</strong></td>
-    <td>Generate clear summaries and recommended next steps.</td>
-  </tr>
-  <tr>
-    <td>📊 <strong>Excel Automation</strong></td>
-    <td>Convert analyzed emails into structured business records.</td>
-  </tr>
-  <tr>
-    <td>☁️ <strong>Google Drive Sync</strong></td>
-    <td>Synchronize workflow files with Google Drive.</td>
-  </tr>
-  <tr>
-    <td>📈 <strong>Streamlit Dashboard</strong></td>
-    <td>Explore results through an interactive web dashboard.</td>
-  </tr>
+<tr>
+<td width="50%">
+
+### 📬 Gmail monitoring
+
+- Authenticate with the Gmail API
+- Retrieve recent messages
+- Read sender, recipient, subject, date, and body
+- Inspect messages through the Streamlit dashboard
+
+</td>
+<td width="50%">
+
+### 🤖 AI email intelligence
+
+- Generate concise business summaries
+- Detect category and department
+- Assign `Low`, `Medium`, or `High` priority
+- Extract deadlines and required actions
+- Identify email sentiment
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔁 Workflow automation
+
+- Process new messages in batches
+- Append AI results to Google Sheets
+- Keep business information structured
+- Reduce repetitive manual data entry
+
+</td>
+<td width="50%">
+
+### 📈 Visual experience
+
+- Clean Streamlit control panel
+- Adjustable number of emails to load
+- Expandable email detail cards
+- Status indicators for connected services
+
+</td>
+</tr>
 </table>
 
-## 🔄 Workflow
+## 🧭 Workflow at a glance
 
-```text
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│ Gmail Inbox  │ ──▶ │  AI Analysis │ ──▶ │ Classification│
-└──────────────┘     └──────────────┘     └──────────────┘
-                                                │
-                                                ▼
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│  Streamlit   │ ◀── │ Google Drive │ ◀── │ Excel Output │
-│  Dashboard   │     │     Sync     │     │   & Actions  │
-└──────────────┘     └──────────────┘     └──────────────┘
+```mermaid
+flowchart LR
+    A[(Gmail Inbox)] --> B[Fetch New Emails]
+    B --> C[Extract Email Data]
+    C --> D{Groq AI Agent}
+    D --> E[Summary]
+    D --> F[Category & Department]
+    D --> G[Priority & Deadline]
+    D --> H[Action & Sentiment]
+    E --> I[(Google Sheets)]
+    F --> I
+    G --> I
+    H --> I
+    C --> J[Streamlit Dashboard]
+    I --> K[Business Follow-up]
+
+    classDef source fill:#EA4335,color:#fff,stroke:#b91c1c
+    classDef ai fill:#6C47FF,color:#fff,stroke:#4c1d95
+    classDef output fill:#34A853,color:#fff,stroke:#166534
+    classDef ui fill:#FF4B4B,color:#fff,stroke:#991b1b
+    class A source
+    class D ai
+    class I,K output
+    class J ui
 ```
 
-## 🎯 Business Value
+## 🏗️ Architecture
 
-Manual email processing often requires people to read every message, determine its purpose and priority, extract important information, write summaries, enter data into Excel, and track follow-up actions.
+```mermaid
+graph TD
+    UI[app.py<br/>Streamlit UI] --> GS[gmail_service.py<br/>Gmail integration]
+    AUTO[automation.py<br/>Batch orchestration] --> GS
+    AUTO --> AI[ai_agent.py<br/>Groq analysis]
+    AUTO --> SS[sheets_service.py<br/>Google Sheets / Drive]
+    ENV[.env<br/>GROQ_API_KEY] --> AI
+    GS --> AUTH[Google OAuth<br/>credentials & token]
+```
 
-This project automates that repetitive workflow to help organizations:
-
-- Reduce manual email processing time
-- Minimize missed or incorrectly classified requests
-- Create consistent business records
-- Prioritize urgent communication
-- Improve follow-up visibility
-- Centralize email intelligence in a searchable workflow
-
-## 🛠️ Technology Stack
-
-| Technology | Purpose |
-| --- | --- |
-| Python | Core application and automation logic |
-| Groq | Generative AI analysis and summarization |
-| Gmail API | Email retrieval and integration |
-| Excel | Structured business workflow output |
-| Google Drive API | Cloud file synchronization |
-| Streamlit | Interactive dashboard and user interface |
-
-## 📁 Project Structure
+## 📂 Project structure
 
 ```text
 AI-Gmail-Automation-Agent/
-├── 📄 README.md
-├── 🐍 *.py                 # Application and automation modules
-├── 📊 *.xlsx               # Generated Excel workflow files
-├── 🔐 credentials.json     # Google OAuth credentials (do not commit)
-├── 🔑 token.json           # Generated Gmail authentication token
-└── ⚙️ .env                 # Local environment variables (do not commit)
+├── app.py              # Streamlit dashboard for inspecting Gmail messages
+├── automation.py       # Batch processing orchestration
+├── ai_agent.py         # Groq-powered email analysis and JSON extraction
+├── gmail_service.py    # Gmail API authentication and message retrieval
+├── sheets_service.py   # Google Sheets / Drive integration
+├── requirements.txt    # Python dependencies
+├── .env                # Local secrets; never commit
+└── README.md
 ```
 
-> The exact files may vary depending on your local configuration. Never commit API keys, OAuth secrets, or generated tokens.
-
-## 🚀 Installation
+## 🚀 Quick start
 
 ### 1. Clone the repository
 
@@ -146,7 +156,7 @@ git clone https://github.com/sawsanzaky/AI-Gmail-Automation-Agent.git
 cd AI-Gmail-Automation-Agent
 ```
 
-### 2. Create a virtual environment
+### 2. Create and activate a virtual environment
 
 ```bash
 python -m venv .venv
@@ -164,69 +174,86 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🔐 Configuration
+> The application also imports `streamlit` and `groq`. If they are not already included in your local dependency file, install them with `pip install streamlit groq`.
 
-Create a `.env` file in the project root and add your configuration values:
-
-```env
-GROQ_API_KEY=your_groq_api_key
-```
-
-To enable Gmail and Google Drive access:
-
-1. Create or select a project in the [Google Cloud Console](https://console.cloud.google.com/).
-2. Enable the Gmail API and Google Drive API.
-3. Configure the OAuth consent screen.
-4. Create OAuth client credentials for a desktop application.
-5. Download the credentials file and place it in the project directory using the filename expected by the application.
-6. Follow the browser authentication flow when the application runs.
-
-> Keep `.env`, OAuth credentials, and token files private. Add them to `.gitignore` before pushing the project.
-
-## ▶️ Usage
-
-Run the Streamlit dashboard with:
+### 4. Launch the dashboard
 
 ```bash
 streamlit run app.py
 ```
 
-If your application entry point has a different name, replace `app.py` with the appropriate Python file.
+Open `http://localhost:8501` in your browser.
 
-The application will open in your browser, usually at:
+## 🔐 Configuration
 
-```text
-http://localhost:8501
+### Groq
+
+Create a `.env` file in the project root:
+
+```env
+GROQ_API_KEY=your_groq_api_key
 ```
 
-## 🖼️ Dashboard Preview
+### Google APIs
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ad31c6c7-1d70-4c08-a58b-3fc9ed6a16d7" alt="AI Gmail Automation Agent dashboard preview" width="100%" />
-</p>
+1. Open the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create or select a project.
+3. Enable the **Gmail API**, **Google Sheets API**, and **Google Drive API**.
+4. Configure the OAuth consent screen.
+5. Create OAuth client credentials for a desktop application.
+6. Download the credentials file expected by the Google service modules.
+7. Complete the browser authentication flow on first run.
 
-## 🛡️ Security Notes
+> Never publish API keys, OAuth client secrets, `credentials.json`, or generated token files. Confirm they are covered by `.gitignore` before committing.
 
-- Do not commit `.env`, `credentials.json`, `token.json`, or API keys.
-- Use the minimum Google API scopes required by the application.
-- Rotate exposed credentials immediately.
-- Review AI-generated classifications and suggested actions before using them for critical business decisions.
+## 🧪 AI output schema
+
+For each processed message, the AI agent returns structured JSON:
+
+```json
+{
+  "summary": "Concise business summary",
+  "category": "Finance",
+  "priority": "High",
+  "deadline": "2026-10-01",
+  "action_required": "Review and respond to the request",
+  "department": "Finance",
+  "sentiment": "Neutral"
+}
+```
+
+This makes unstructured conversations easier to filter, prioritize, assign, and follow up.
+
+## 🖼️ Dashboard preview
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ad31c6c7-1d70-4c08-a58b-3fc9ed6a16d7" alt="AI Gmail Automation Agent dashboard preview" width="95%" />
+</div>
+
+## 🛡️ Security checklist
+
+- [ ] Keep `.env` out of version control.
+- [ ] Do not commit Google OAuth credentials or tokens.
+- [ ] Use the smallest practical Google API scopes.
+- [ ] Rotate any credential that is accidentally exposed.
+- [ ] Review AI-generated results before taking critical business actions.
 
 ## 🤝 Contributing
 
-Contributions are welcome. To contribute:
-
 1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m "Add my feature"`
-4. Push the branch: `git push origin feature/my-feature`
-5. Open a pull request.
+2. Create a branch: `git checkout -b feature/your-feature`.
+3. Make and test your changes.
+4. Commit and push your branch.
+5. Open a pull request with a clear description.
 
 ## 📄 License
 
 Add your preferred license information here.
 
 <div align="center">
-  <br />
-  <strong>Automate email. Organize information. Focus on what matters.</strong>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:0F172A&height=120&section=footer" width="100%" alt="Footer banner" />
+
+<strong>Automate email. Surface intelligence. Move work forward.</strong>
+
 </div>
